@@ -1,9 +1,114 @@
-html {}
+html {
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+}
 
-header {}
+header {
+    color: #FFF;
+    background-color: #000;
+    text-align: center;
+}
 
-footer {}
+header h1 {
+    font-size: 6rem;
+    font-weight: 400;
+    padding: 1rem;
+    margin: auto;
+}
 
-article {}
+header img {
+    width: 100%;
+}
 
-section {}
+footer {
+    background-color: #1E1A13;
+    text-align: center;
+    min-height: 10rem;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 5rem;
+}
+
+footer a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: lightgray;
+}
+
+footer a:visited {
+    color: gray;
+}
+
+.description {
+    float: left;
+    border: solid 1px black;
+    background-color: #000;
+}
+
+.description p {
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.description img {
+    float: right;
+    max-height: 24rem;
+    margin: auto;
+}
+
+.features {
+    background-color: #1E1A13;
+    text-align: center;
+    margin: 4rem 0;
+    border: solid 1px #000;
+    padding: 1em;
+    color: #FFF;
+    font-size: 3rem;
+}
+
+.features h2 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.features i {
+    display: block;
+    padding: 0.5rem;
+}
+
+.feature {
+    width: 25%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.gallery {
+    padding: 5rem 10rem;
+}
+
+.photo {
+    display: inline-block;
+    width: 30%;
+    border: solid 1px #000;
+    margin: 0.75%;
+    padding: 0.75%;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.photo p {
+    text-align: center;
+}
