@@ -111,6 +111,7 @@ footer a:visited {
 
 .gallery {
     padding: 2rem 10rem;
+    display: flow-root;
 }
 
 .photo {
