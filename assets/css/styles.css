@@ -12,7 +12,7 @@ header {
 
 header h1 {
     font-size: 6rem;
-    font-weight: 400;
+    font-weight: 500;
     padding: 1rem;
     margin: auto;
 }
@@ -54,31 +54,29 @@ footer a:visited {
     min-height: 30rem;
 }
 
+.description img {
+    float: right;
+    width: 25%;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: -4rem;
+}
+
 .description p {
     color: #FFF;
     font-size: 2rem;
     font-weight: 300;
-    max-width: 40%;
-    margin: 2rem 7rem;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 15rem;
 }
 
 .description p:first-of-type {
-    padding-top: 2.5rem;
+    padding-top: 3rem;
 }
 
 .description div {
-    display: inline-block;
+    width: 80%;
+    display: flow-root;
     vertical-align: middle;
-}
-
-.description img {
-    padding-top: 2.5rem;
-    padding-right: 25rem;
-    max-height: 25rem;
-    float: right;
+    margin: auto;
 }
 
 .features {
