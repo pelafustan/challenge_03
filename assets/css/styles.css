@@ -110,8 +110,10 @@ footer a:visited {
 }
 
 .gallery {
-    padding: 2rem 10rem;
-    display: flow-root;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .photo {
